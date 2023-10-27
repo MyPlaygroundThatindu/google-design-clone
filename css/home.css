@@ -1,0 +1,128 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 60px;
+}
+
+#toolbar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#toolbar ul li {
+    display: inline;
+    padding: 8px;
+    color: black !important;
+    font-size: 0.8em;
+}
+
+#toolbar ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#toolbar ion-icon {
+    font-size: 1.5rem;
+    color: grey;
+}
+
+#toolbar li img {
+    height: 3rem;
+    border-radius: 50%;
+}
+
+main {
+    /* background-color: yellow; */
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#google-logo img{
+    margin-top: 40%;
+    height: 5.5rem;
+
+}
+
+#search-bar{
+    margin-top: 5%;
+    height: 40px;
+    width: 550px;
+    border-radius: 20px;
+    box-shadow: 1px 4px 8px 1px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    position: relative;
+}
+
+#search-bar ion-icon {
+    color: grey;
+}
+
+#search-bar input {
+    margin-left: 15px;
+    border: none;
+    font-size: 1rem;
+    width: 450px;
+}
+
+#search-bar input:focus {
+    outline: none;
+}
+
+
+#search-bar img {
+    height: 28px;
+    position: relative;
+    margin-right: 5px;
+}
+
+#search-bar img:hover {
+    cursor: pointer;
+}
+
+#add-shortcut {
+    width: 120px;
+    height: 130px;
+    margin-top: 20px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#add-shortcut:hover {
+    cursor: pointer;
+    background-color: rgba(180, 176, 176, 0.2);
+    
+}
+
+#plus {
+    margin-top: 40px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: rgba(180, 176, 176, 0.2);
+    text-align: center;
+    transform: translateY(-50%);
+    transition-property: background-color;
+    transition-duration: 100ms;
+    
+}
+
+#plus img {
+    max-height: 30px;
+    display: inline-block;
+    transform: translateY(50%);  
+}
+
+#add-shortcut label {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+}
+
