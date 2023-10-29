@@ -148,3 +148,12 @@ main {
     margin-bottom: 10px;
 }
 
+.copy-right {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-size: 0.8rem;
+    padding: 3px;
+    text-align: center;
+}
+
